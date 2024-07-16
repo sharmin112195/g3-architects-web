@@ -21,12 +21,21 @@
 .text-light-gray{
   color: #727272;
 }
+
+.bg-light{
+  background-color: rgba(255, 144, 14, 0.1);
+}
   /* header styles */
 
 
  /* navbar related styles  */
  .navbar{
   justify-content: space-between;
+  align-items: center;
+ }
+
+ .brand{
+  font-weight: 700;
  }
  .nav-item{
   list-style: none;
@@ -36,4 +45,10 @@
  .nav-link{
   text-decoration: none;
   width: 500px;
+ }
+
+ .navbar, .banner{
+  max-width: 1440px;
+  margin: 0 auto;
+
  }
