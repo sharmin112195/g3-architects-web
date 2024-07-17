@@ -7,6 +7,7 @@
     font-style: normal;
   }
 
+
   /* shared styles */
 .display-flex{
   display: flex;
@@ -32,10 +33,13 @@
 
 .btn-primary{
   background-color: #FF900E;
+  color: white;
   padding: 15px 20px;
   border-radius: 8px;
   font-size: 1.25rem;
   font-weight: 600;
+  border: none;
+ 
 }
 
 /* .banner-image{
@@ -46,7 +50,7 @@
 } */
 
 main{
-  max-width: 1440px;
+  width: 1170px;
   margin: 0 auto;
 }
 
@@ -61,7 +65,10 @@ main > section{
  }
   /* header styles */
 
-
+nav, .banner{
+  width: 1170px;
+  margin: 0 auto;
+}
  /* navbar related styles  */
  .navbar{
   justify-content: space-between;
