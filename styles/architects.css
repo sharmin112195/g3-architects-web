@@ -227,6 +227,24 @@ margin-bottom: 0px;
   filter: grayscale(100%);
 }
 
+/* footer section */
+
+.all-footer-section{
+  margin-top: 80px;
+  margin-bottom: 120px;
+}
+.footer-section{
+  background-color: #fff4e7;
+  width: 1170px;
+  height: 50px;
+  padding: 8px;
+ margin: 0 auto;
+}
+
+.footer-header{
+  text-align: center;
+}
+
 
  /* responsive media query */
  @media screen and (max-width:576px){
@@ -260,6 +278,10 @@ margin-bottom: 0px;
   #experience-badge{
    margin-top: 20px;
    margin-left: 20px; 
+  }
+
+  .all-footer-section{
+    
   }
 
   }
